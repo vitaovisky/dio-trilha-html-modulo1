@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formação HTML - Exercício Modulo I</title>
+</head>
+
+<body>
+    <h1 id="inicio">Módulo I - Primeiros Passos com HTML</h1>
+    <hr>
+    <ol>
+        <li><a href="#client-x-server">Entendendo Comunicação Client X Server</a>
+            <ul>
+                <li><a href="#historia">História da Web</a></li>
+                <li><a href="#clients">Clients</a></li>
+                <li><a href="#servers">Servers</a></li>
+                <li><a href="#linguagens-programacao">Linguagens de Programação</a></li>
+            </ul>
+        </li>
+        <hr>
+        <li><a href="#introducao-html">Introdução ao HTML na Prática</a>
+            <ul>
+                <li><a href="#ferramentas">Ferramentas Utilizadas</a></li>
+                <li><a href="#estrutura-html">Estrutura Básica do HTML</a></li>
+                <li><a href="#tags">Tags</a></li>
+                <li><a href="#atributos">Atributos</a></li>
+            </ul>
+        </li>
+        <hr>
+        <li><a href="#referencias">Referências</a></li>
+    </ol>
+    <hr>
+    <h2 id="client-x-server"><u>Entendendo Comunicação Client X Server</u></h2>
+    <h6><a href="#inicio"><small>↑ Voltar ao topo</small></a></h6>
+    <p>A comunicação Client X Server é a estrutura de comunicação que não dependerá de que todas funcionalidades de um determinado programa executem somente na máquina do usuário.</p>
+    <p>A separação entre a execução de funcionalidades e requerimentos é feita em ambientes distintos.</p>
+    <p>Esse tipo de sistema independe da comunicação via internet, e pode ser montado em comunicações internas, entre máquinas em uma rede LAN.</p>
+    <div class="odd" style="background-color: #f3f3f3;">
+        <h3 id="historia">História da Web</h3>
+        <h6><a href="#inicio"><small>↑ Voltar ao topo</small></a></h6>
+
+        <img src="./img/arpanet.jpg" alt="" style="width: 200px ;display: inline-block;">
+        <p style="display: inline;">A história da Web, apesar de profundamente atrelada com a história dos computadores, teve inicio com a <strong>ARPANET</strong> em 1969. Em meio as inovações criadas no período da Guerra Fria.</p>
+        <p>Como diversas invenções deste período, a ARPANET tinha seu foco a utilização militar para transmissão de dados sigilosos e interligar instituos de pesquisa nos E.U.A</p>
+        <img src="./img/tim.jpg" alt="" style="width: 250px ;display: inline-block;">
+
+
+        <p style="display: inline;">Posteriormente a isso, a partir de 1984, Tim Berners-Lee, criou o protocolo de transferência de hipertexto HTTP e a liguagem de marcação de hipertextos HTML.</p>
+        <p>Levando essa tecnologia ao uso popular.</p>
+        <p>Em 1989 Tim Berners-Lee, uniu o hipertexto com a internet e criou a World Wide Web, o primeiro site criado foi ao ar em 1991 com informações sobre o que é a <abbr title="World Wide Web">WWW</abbr> e sobre os navegadores, o site pode ainda ser acessado. <a href="https://info.cern.ch/hypertext/WWW/TheProject.html" target="_blank">World Wide Web</a> </p><img src="./img/www.jpg" alt="" style="width: 250px ;display: inline-block;">
+        <blockquote>“A web não está concluída, é apenas a ponta do iceberg. As novas mudanças irão balançar o mundo ainda mais.”<sup><a href="#1">Tim Berners-Lee</a></sup>
+        </blockquote>
+    </div>
+    <div>
+        <h3 id="clients">Clients</h3>
+        <h6><a href="#inicio"><small>↑ Voltar ao topo</small></a></h6>
+        <p>Clients são as aplicações e programas que estão do lado do usuário.</p>
+        <p>Nesse sistema de comunicação, Clients são responsáveis por requisitar as informações dos servers e a partir dos clientes são enviados inputs se existirem.</p>
+        <p>Normalmente nos Clients são armazenados o mínimo de informação possível para o funcionamento de uma determina aplicação, a maior parcela de informações normalmente estará no lado do server.</p>
+    </div>
+    <div class="odd" style="background-color: #f3f3f3;">
+        <h3 id="servers">Servers</h3>
+        <h6><a href="#inicio"><small>↑ Voltar ao topo</small></a></h6>
+        <p>Servers são as máquinas que irão ter as informações sobre a aplicação e irão rodar essas informações para disponibilizá-las aos clients.</p>
+        <p>Os servers de uma determinada aplicação podem ter diversas estruturas e funcionalidades.</p>
+        <p>Servers diferentes podem ser designados para realizar tarefas distintas de uma mesma aplicação. Como por exemplo armazenar dados, caixa de e-mail e aplicação web.</p>
+
+    </div>
+    <div>
+        <h3 id="linguagens-programacao">Linguagens de Programação</h3>
+        <h6><a href="#inicio"><small>↑ Voltar ao topo</small></a></h6>
+        <p>Linguagens de programação são linguagens criadas para comunicar com o computador para executar funções específicas.</p>
+        <p>Existem diversas linguagens em diversos níveis.</p>
+        <p>Elas podem estar mais próximas a comunicação das placas lógicas dos computadores, em binário, ou terem um nível maior, e estarem mais próximas da forma de escrita humana.</p>
+        <p>E existem linguagens que irão atuar na comunicação Cliente x Server em partes diferentes da comunicação, alguns irão atuar no <i>Client Side</i> enquanto outras irão atuar no <i>Server Side.</i></p>
+        <p>Exemplos de linguagem de programação Cliente Side: <u>JavaScript.</u></p>
+        <p>Exemplos de linguagens de programação Server Side: <u>JavaScript</u>, <u>PHP</u>, <u>C#</u>, <u>Java</u> e <u>Ruby.</u></p>
+        <p><mark><strong>HTML é uma linguagem de marcação, não de programação.</strong></mark></p>
+    </div>
+
+    <hr>
+
+    <h2 id="introducao-html"><u>Introdução ao HTML na Prática</u></h2>
+    <h6><a href="#inicio"><small>↑ Voltar ao topo</small></a></h6>
+    <p>O HTML por ser uma linguagem de marcação, terá como função na aplicação Web estruturar, o corpo da aplicação e demarcar o <q>esqueleto</q> da aplicação.</p>
+    <p>A partir desta estrutura básica, é possível utilizar o CSS e JavaScript para gerar estilos e funcionalidade para a aplicação.</p>
+    <p><u>Por ser uma linguagem para marcação e não para criar funções, o HTML não é considerado uma linguagem de programação.</u></p>
+    <div class="odd" style="background-color: #f3f3f3;">
+        <h3 id="ferramentas">Ferramentas Utilizadas</h3>
+        <h6><a href="#inicio"><small>↑ Voltar ao topo</small></a></h6>
+        <p>Para a construção de uma página web e estruturar um código HTML, é necessário somente algum programa de texto e que o arquivo criado seja salvo na extensão correta, no caso <mark>.html</mark></p>
+        <p>Porém o recomendado é o uso de um <i>compilador</i> que são programas específicos para a escrita de códigos em linguagens de programação e no caso do HTML, marcação.</p>
+        <p>Compiladores terão a função de entender o código escrito e no momento da produção e execução testar para erros de escrita ou de lógica, que poderão gerer bugs na execução.</p>
+        <p><strong>Compiladores auxiliam imensamente na produção de um código.</strong></p>
+        <p>Um dos compiladores mais famosos e utilizados é o <u><abbr title="Visual Studio Code">VS Code</u>.</p>
+    </div>
+    <div>
+        <h3 id="estrutura-html">Estrutura Básica do HTML</h3>
+        <h6><a href="#inicio"><small>↑ Voltar ao topo</small></a></h6>
+        <p>O HTML é dividido em tags e atributos.</p>
+        <p>As tags estruturarão o conteúdo do site. Atribuindo padrões e funções ao conteúdo.</p>
+        <p>Os atributos estarão dentro das tags, atribuindo valores e especificidades as tags.</p>
+    </div>
+    <div class="odd" style="background-color: #f3f3f3;">
+        <h3 id="tags">Tags</h3>
+        <h6><a href="#inicio"><small>↑ Voltar ao topo</small></a></h6>
+        <p>Tags são responsáveis por montar a estrutura do código HTML.</p>
+        <p>As diversas tags terão funções distintas e diversas aplicações estruturais no HTML, como em ordens de importância, alterações de forma de exibição e agregar arquivos ou funções externas no site.</p>
+        <p>As tags são escritas no HTML entre <span>
+                < </span> <span>></span> e terão funções específicas, alguns exemplos são:
+        </p>
+        <ul>
+            <li>
+                <p><strong>h1</strong> até <strong>h6</strong> - Indicam títulos</p>
+            </li>
+            <li>
+                <p><strong>div</strong> - Separa o conteúdo interno em um grupo</p>
+            </li>
+            <li>
+                <p><strong>p</strong> - Registra um parágrafo</p>
+            </li>
+            <li>
+                <p><strong>ol</strong> e <strong>ul</strong> - Listas ordenadas e não ordenadas respectivamente</p>
+            </li>
+            <li>
+                <p><strong>a</strong> - Ancoragem do site, comumente utilizada para navegação</p>
+            </li>
+        </ul>
+    </div>
+    <div>
+        <h3 id="atributos">Atributos</h3>
+        <h6><a href="#inicio"><small>↑ Voltar ao topo</small></a></h6>
+        <p>Atributos estão integrados as tags de forma a gerar funcionalidades necessárias ou ordenação as tags.</p>
+        <p>Atributos podem ser gerais e empregrados em qualquer tipo de tag, mas também existem atributos específicos de algumas tags, alguns exemplos são:</p>
+        <ul>
+            <li>
+                <p><strong>id</strong> - Identificador da Tag, pode ser utilizado em outras partes do código ou no CSS e JavaScript paratratar específicamente da tag com o id</p>
+            </li>
+            <li>
+                <p><strong>class</strong> - Similar ao Identificador, porém pode ser utilizado em diversas tags para serem atribuidos estilos ou funções similares a várias partes da estrutura.</p>
+            </li>
+            <li>
+                <p><strong>href</strong> - Atrelado a tag a, a função deste atributo é referenciar onde é a ancoragem da tag, seja um link externo ou interno.</p>
+            </li>
+            <li>
+                <p><strong>target</strong> - Pertence a tag a, terá a função de indicar ao navegador se o link irá ser aberto na mesma página ou em um nova aba.</p>
+            </li>
+            <li>
+                <p><strong>src</strong> - Atrelado a tag img, indica o caminho onde será buscada a imagem, seja nos arquivos da aplicação ou externamente.</p>
+            </li>
+        </ul>
+    </div>
+
+    <div>
+        <h2 id="referencias">Referências</h2>
+        <h6><a href="#inicio"><small>↑ Voltar ao topo</small></a></h6>
+        <h4>Entendendo Comunicação Client X Server</h4>
+        <a href="https://www.controle.net/faq/cliente-servidor-uma-estrutura-para-a-computacao-centralizada#:~:text=Um%20servidor%20%C3%A9%20um%20recurso,como%20%E2%80%9Ccliente%2Dservidor%E2%80%9D." target="_blank">
+            <h5>Client x Server</h5>
+        </a>
+
+
+        <a href="https://paginas.fe.up.pt/~mgi97018/historia.html#:~:text=1969%20%2D%20A%20ARPA%20criou%20uma,partilhar%20remotamente%20informa%C3%A7%C3%A3o%20e%20recursos." target="_blank">
+            <h5>ARPANET</h5>
+        </a>
+        <a href="https://citacoes.in/autores/tim-berners-lee/" target="_blank">
+            <h5>Citação de Tim Berners-Lee</h5>
+        </a>
+
+        <a href="https://www.tecmundo.com.br/internet/266848-linguagem-programacao-conheca-principais.htm" target="_blank">
+            <h5>Linguagens de Programação</h5>
+        </a>
+        <h4>Introdução ao HTML na Prática</h4>
+
+        <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank">
+            <h5>HTML</h5>
+        </a>
+
+        <a href="https://www.w3schools.com/TAGS/default.asp" target="_blank">
+            <h5>Tags</h5>
+        </a>
+        <a href="https://www.w3schools.com/TAGS/ref_attributes.asp" target="_blank">
+            <h5>Atributos</h5>
+        </a>
+
+    </div>
+    <hr>
+    <footer>
+        <h6 style="display: inline">Projeto de estudo HTML - </h6>
+        <a href="https://www.dio.me/" target="_blank">
+            <h6 style="display: inline">Dio.me</h6>
+        </a>
+    </footer>
+
+
+</body>
+
+</html>
